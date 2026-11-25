@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Resturant_app",
+    "slug": "Resturant_app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.jpeg",
+    "scheme": "resturantapp",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon": "./assets/logo.jpeg"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/logo.jpeg",
+        "backgroundImage": "./assets/logo.jpeg",
+        "monochromeImage": "./assets/logo.jpeg"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/logo.jpeg"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#208AEF",
+          "image": "./assets/logo.jpeg",
+          "imageWidth": 76
+        }
+      ],
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
